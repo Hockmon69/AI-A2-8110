@@ -1,0 +1,27 @@
+{
+  "verification_code": "AI-A2-8110",
+  "student_id": "ug2528110@ines.ac.rw",
+  "seed": 8110,
+  "baseline_mean": {
+    "MAE": 2.1181,
+    "RMSE": 2.6819,
+    "R2": -0.013
+  },
+  "candidate_linear_regression": {
+    "MAE": 0.8284,
+    "RMSE": 1.0406,
+    "R2": 0.8475
+  },
+  "candidate_ridge_regression": {
+    "MAE": 0.827,
+    "RMSE": 1.0392,
+    "R2": 0.8479
+  },
+  "selected_model": "RidgeRegressionModel",
+  "selection_reason": "Ridge achieved lowest held-out test RMSE and higher generalization stability via L2 regularization.",
+  "test_metrics": {
+    "MAE": 0.827,
+    "RMSE": 1.0392,
+    "R2": 0.8479
+  }
+}

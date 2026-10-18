@@ -1,0 +1,9 @@
+{
+  "rainfall_mm": 950.5,
+  "avg_temp_c": 19.2,
+  "soil_moisture_pct": 52.4,
+  "fertilizer_kg": 120.0,
+  "field_size_ha": 2.1,
+  "season": "A",
+  "cooperative_support": 1
+}

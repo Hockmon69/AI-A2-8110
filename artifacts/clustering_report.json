@@ -1,0 +1,128 @@
+{
+  "verification_code": "AI-A2-8110",
+  "student_id": "ug2528110@ines.ac.rw",
+  "seed": 8110,
+  "tested_k_scores": {
+    "K=2": 0.112,
+    "K=3": 0.1054,
+    "K=4": 0.1095,
+    "K=5": 0.1245,
+    "K=6": 0.1179
+  },
+  "selected_k": 5,
+  "selection_justification": "K=5 produced the optimal silhouette score (0.1245) among tested candidate configurations (K=2..6).",
+  "cluster_centers": [
+    [
+      -1.0305361918071378,
+      -0.29696111135666164,
+      0.3542273876127363,
+      -0.20811240935322536,
+      0.9768927388187061,
+      -0.14923020259349756,
+      0.5185279945265315
+    ],
+    [
+      0.8380164484108029,
+      0.18183340564662887,
+      -0.7731400807851146,
+      0.11020454481753565,
+      0.44311968039469457,
+      0.20728688415042001,
+      0.8039054016125106
+    ],
+    [
+      0.5490845028962538,
+      0.7162620714238661,
+      1.0233984254097102,
+      0.04643164034523097,
+      -0.13307689370441553,
+      0.308268452603152,
+      -0.580715181704069
+    ],
+    [
+      0.3793646234935276,
+      -1.1674297998010268,
+      0.5207823369544443,
+      -0.40872510917981947,
+      -0.21439671641506405,
+      -0.5024286462427243,
+      -0.36780581471535895
+    ],
+    [
+      -0.6318563250411957,
+      0.18955576398851162,
+      -0.6455838404241047,
+      0.1760774220425522,
+      -0.8453867294183582,
+      0.02731431632296161,
+      -0.37894261237322985
+    ]
+  ],
+  "cluster_profiles": [
+    {
+      "cluster_id": 0,
+      "profile_name": "High-Input Intensified Parcels",
+      "farm_count": 54,
+      "farm_share_pct": 19.78,
+      "mean_rainfall_mm": 774.76,
+      "mean_temperature_c": 18.09,
+      "mean_soil_moisture_pct": 56.5,
+      "mean_fertilizer_kg": 110.79,
+      "mean_field_size_ha": 3.13,
+      "cooperative_support_pct": 38.89,
+      "operational_recommendation": "Prioritize targeted fertilizer delivery and water retention schemes for high-input intensified parcels."
+    },
+    {
+      "cluster_id": 1,
+      "profile_name": "Smallholder Support-Reliant Holdings",
+      "farm_count": 60,
+      "farm_share_pct": 21.98,
+      "mean_rainfall_mm": 1199.39,
+      "mean_temperature_c": 20.08,
+      "mean_soil_moisture_pct": 36.67,
+      "mean_fertilizer_kg": 134.25,
+      "mean_field_size_ha": 2.58,
+      "cooperative_support_pct": 56.67,
+      "operational_recommendation": "Prioritize targeted fertilizer delivery and water retention schemes for smallholder support-reliant holdings."
+    },
+    {
+      "cluster_id": 2,
+      "profile_name": "Extensive Rain-Fed Holdings",
+      "farm_count": 47,
+      "farm_share_pct": 17.22,
+      "mean_rainfall_mm": 1133.73,
+      "mean_temperature_c": 22.3,
+      "mean_soil_moisture_pct": 67.42,
+      "mean_fertilizer_kg": 129.43,
+      "mean_field_size_ha": 1.98,
+      "cooperative_support_pct": 61.7,
+      "operational_recommendation": "Prioritize targeted fertilizer delivery and water retention schemes for extensive rain-fed holdings."
+    },
+    {
+      "cluster_id": 3,
+      "profile_name": "Moderate Balanced Micro-Plots",
+      "farm_count": 47,
+      "farm_share_pct": 17.22,
+      "mean_rainfall_mm": 1095.16,
+      "mean_temperature_c": 14.47,
+      "mean_soil_moisture_pct": 59.07,
+      "mean_fertilizer_kg": 96.59,
+      "mean_field_size_ha": 1.9,
+      "cooperative_support_pct": 21.28,
+      "operational_recommendation": "Prioritize targeted fertilizer delivery and water retention schemes for moderate balanced micro-plots."
+    },
+    {
+      "cluster_id": 4,
+      "profile_name": "High-Elevation Cool-Zone Fields",
+      "farm_count": 65,
+      "farm_share_pct": 23.81,
+      "mean_rainfall_mm": 865.36,
+      "mean_temperature_c": 20.11,
+      "mean_soil_moisture_pct": 39.21,
+      "mean_fertilizer_kg": 138.57,
+      "mean_field_size_ha": 1.25,
+      "cooperative_support_pct": 47.69,
+      "operational_recommendation": "Prioritize targeted fertilizer delivery and water retention schemes for high-elevation cool-zone fields."
+    }
+  ]
+}

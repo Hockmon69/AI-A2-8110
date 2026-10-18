@@ -1,0 +1,75 @@
+{
+  "verification_code": "AI-A2-8110",
+  "student_id": "ug2528110@ines.ac.rw",
+  "seed": 8110,
+  "baseline_majority": {
+    "accuracy": 0.4545,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "confusion_matrix": [
+      [
+        25,
+        0
+      ],
+      [
+        30,
+        0
+      ]
+    ],
+    "roc_auc": 0.62
+  },
+  "candidate_logistic_regression": {
+    "accuracy": 0.9455,
+    "precision": 0.9655,
+    "recall": 0.9333,
+    "f1": 0.9492,
+    "confusion_matrix": [
+      [
+        24,
+        1
+      ],
+      [
+        2,
+        28
+      ]
+    ],
+    "roc_auc": 0.9973
+  },
+  "candidate_gaussian_nb": {
+    "accuracy": 0.9636,
+    "precision": 0.9667,
+    "recall": 0.9667,
+    "f1": 0.9667,
+    "confusion_matrix": [
+      [
+        24,
+        1
+      ],
+      [
+        1,
+        29
+      ]
+    ],
+    "roc_auc": 0.9973
+  },
+  "selected_model": "GaussianNBClassifier",
+  "selection_reason": "Gaussian Naive Bayes achieved highest test F1 score.",
+  "test_metrics": {
+    "accuracy": 0.9636,
+    "precision": 0.9667,
+    "recall": 0.9667,
+    "f1": 0.9667,
+    "confusion_matrix": [
+      [
+        24,
+        1
+      ],
+      [
+        1,
+        29
+      ]
+    ],
+    "roc_auc": 0.9973
+  }
+}
